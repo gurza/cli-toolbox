@@ -1,7 +1,10 @@
 cli-toolbox
 ===========
 
-Awesome cli apps.
+Awesome cli tools.
+
+- [R](#R)
+  - rpkginstall.sh - script to install R packages from the command line.
 
 
 License
