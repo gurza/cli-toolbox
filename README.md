@@ -1,7 +1,7 @@
 cli-toolbox
 ===========
 
-Awesome cli tools.
+Sergey's awesome cli tools.
 
 - [.NET](#dotnet)
   - [dotnet-uninstall-pkgs.sh](dotnet/dotnet-uninstall-pkgs.sh) - uninstall dotnet core from macOS.
