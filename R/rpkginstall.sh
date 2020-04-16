@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
+#
 # Install a package like this example, which would install dplyr
 # ./rpkginstall dplyr
+#
+
 pkg=${1}
 
 function help {
