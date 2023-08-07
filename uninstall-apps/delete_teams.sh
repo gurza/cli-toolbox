@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 # Path to Microsoft Teams classic app
 TEAMS_APP_PATH="/Applications/Microsoft Teams classic.app"
