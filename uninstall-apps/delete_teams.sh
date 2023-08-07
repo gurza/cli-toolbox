@@ -1,8 +1,11 @@
 #!/usr/bin/env sh
 
+# This script uninstalls Microsoft Teams classic and its related data from a Mac.
+
 # Path to Microsoft Teams classic app
 TEAMS_APP_PATH="/Applications/Microsoft Teams classic.app"
-# Paths to Microsoft Teams related data
+
+# Paths to Microsoft Teams related data and cache
 TEAMS_DATA_PATHS=(
     "$HOME/Library/Caches/com.microsoft.teams"
     "$HOME/Library/Caches/com.microsoft.teams.shipit"
@@ -17,7 +20,7 @@ TEAMS_DATA_PATHS=(
     "$HOME/Library/Application Support/Microsoft/Teams/tmp"
 )
 
-delete_directory() {
+remove_item() {
     if [ -d "$1" ]; then
         echo "Deleting $1..."
         rm -rf "$1"
@@ -27,15 +30,10 @@ delete_directory() {
     fi
 }
 
-if [ -d "$TEAMS_APP_PATH" ]; then
-    echo "Deleting Microsoft Teams classic..."
-    rm -rf "$TEAMS_APP_PATH"
-    echo "Microsoft Teams classic has been deleted."
-else
-    echo "Microsoft Teams classic is not installed."
-fi
+remove_item "$TEAMS_APP_PATH"
 
-# Delete Microsoft Teams related data
 for path in "${TEAMS_DATA_PATHS[@]}"; do
-    delete_directory "$path"
+    remove_item "$path"
 done
+
+echo "Microsoft Teams classic and associated data have been removed, if they were present."
