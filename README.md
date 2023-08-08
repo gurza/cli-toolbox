@@ -2,10 +2,13 @@
 
 Sergei's awesome cli tools.
 
-- Firebird
-  - [unarchive_firebird.sh](firebird/unarchive_firebird.sh) - extract database file from Firebird archive (.pka or .pka, .p01, .p02, ...), using zip, unzip utilities.
-- R
-  - [rpkginstall.sh](R/rpkginstall.sh) - install R packages from the command line.
+## Firebird
+
+- [unarchive_firebird.sh](firebird/unarchive_firebird.sh) - extract database file from Firebird archive (.pka or .pka, .p01, .p02, ...), using zip, unzip utilities.
+
+## R
+
+- [rpkginstall.sh](R/rpkginstall.sh) - install R packages from the command line.
 
 ## Uninstall Apps
 
