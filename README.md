@@ -11,6 +11,12 @@ Sergei's awesome cli tools.
 - R
   - [rpkginstall.sh](R/rpkginstall.sh) - install R packages from the command line.
 
+## Uninstall Apps
+
+Scripts for deleting unwanted apps, plugins, and extensions on a Mac.
+
+- [delete_teams.sh](uninstall-apps/delete_teams.sh) - Uninstalls "Microsoft Teams classic"
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
