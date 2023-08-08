@@ -11,7 +11,7 @@ Sergei's awesome cli tools.
 
 Scripts for deleting unwanted apps, plugins, and extensions on a Mac.
 
-- [delete_teams.sh](uninstall-apps/delete_teams.sh) - Uninstalls "Microsoft Teams classic".
+- [uninstall-teams.sh](uninstall-apps/uninstall-teams.sh) - Uninstalls "Microsoft Teams classic".
 - [uninstall-dotnet-pkgs.sh](uninstall-apps/uninstall-dotnet-pkgs.sh) - Uninstalls .NET Core.
 - [uninstall-mono.sh](uninstall-apps/uninstall-mono.sh) - Uninstalls Mono.
 - [uninstall-xamarin.sh](uninstall-apps/uninstall-xamarin.sh) - Uninstalls Xamarin, including Workbooks and Inspector.
